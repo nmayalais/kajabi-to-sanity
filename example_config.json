@@ -1,0 +1,9 @@
+{
+  "base_url": "https://www.example.com",
+  "blog_path": "/blog",
+  "output_file": "blog_export.ndjson",
+  "author": "Your Name",
+  "extract_images": true,
+  "extract_tags": true,
+  "log_level": "INFO"
+}
