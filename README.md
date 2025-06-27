@@ -55,11 +55,11 @@ Extract blog posts from Kajabi and convert to Sanity NDJSON format
 
 optional arguments:
   -h, --help            show this help message and exit
-  --url URL             Base URL of the Kajabi site (default: https://www.nicholasayala.com)
+  --url URL             Base URL of the Kajabi site (default: https://example-kajabi-site.com)
   --blog-path BLOG_PATH Path to the blog section (default: /blog)
   --output OUTPUT, -o OUTPUT
                         Output NDJSON file name (default: sanity_import.ndjson)
-  --author AUTHOR       Default author name for posts (default: Nicholas Ayala)
+  --author AUTHOR       Default author name for posts (default: Author Name)
   --log-level {DEBUG,INFO,WARNING,ERROR}
                         Logging level (default: INFO)
   --version             show program's version number and exit
@@ -228,12 +228,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-**Nicholas Ayala**
-- Website: [nicholasayala.com](https://www.nicholasayala.com)
-- GitHub: [@nmayalais](https://github.com/nmayalais)
 
 ## Acknowledgments
 

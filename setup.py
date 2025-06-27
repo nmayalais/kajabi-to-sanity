@@ -12,8 +12,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="kajabi-to-sanity",
     version="1.0.0",
-    author="Nicholas Ayala",
-    author_email="your.email@example.com",
+    author="",
+    author_email="",
     description="Extract blog posts from Kajabi and convert to Sanity CMS format",
     long_description=long_description,
     long_description_content_type="text/markdown",

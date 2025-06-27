@@ -5,7 +5,6 @@ Kajabi Blog to Sanity CMS Migration Tool
 This script extracts blog posts from a Kajabi-hosted site and converts them
 to Sanity-compatible NDJSON format for import.
 
-Author: Nicholas Ayala
 License: MIT
 """
 
@@ -28,7 +27,7 @@ __version__ = "1.0.0"
 class KajabiToSanityMigrator:
     """Handles the migration of blog posts from Kajabi to Sanity CMS."""
     
-    def __init__(self, base_url: str = "https://www.nicholasayala.com", 
+    def __init__(self, base_url: str = "https://example-kajabi-site.com", 
                  blog_path: str = "/blog",
                  output_file: str = "sanity_import.ndjson"):
         """
@@ -49,7 +48,7 @@ class KajabiToSanityMigrator:
         })
         
         # Default options (can be overridden)
-        self.default_author = "Nicholas Ayala"
+        self.default_author = "Author Name"
         self.extract_images = True
         self.extract_tags = True
         
@@ -275,8 +274,8 @@ def main():
     
     parser.add_argument(
         "--url",
-        default="https://www.nicholasayala.com",
-        help="Base URL of the Kajabi site (default: https://www.nicholasayala.com)"
+        default="https://example-kajabi-site.com",
+        help="Base URL of the Kajabi site (default: https://example-kajabi-site.com)"
     )
     
     parser.add_argument(
@@ -294,8 +293,8 @@ def main():
     
     parser.add_argument(
         "--author",
-        default="Nicholas Ayala",
-        help="Default author name for posts (default: Nicholas Ayala)"
+        default="Author Name",
+        help="Default author name for posts (default: Author Name)"
     )
     
     parser.add_argument(
